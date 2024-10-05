@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuest - Learn, Discover, Expand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">EduQuest</div>
+            <ul>
+                <li><a href="#math">Math</a></li>
+                <li><a href="#science">Science</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#arts">Arts</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search courses...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-video">
+            <iframe src="https://www.youtube.com/embed/j7Atyf-EFhI?si=1ZpMYMln05XmIIrj&autoplay=1&mute=1&loop=1&playlist=j7Atyf-EFhI&cc_load_policy=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to EduQuest</h1>
+            <p id="dynamic-tagline">Learn at your own pace</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section class="featured-courses">
+        <div class="container">
+            <h2>Featured Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <img src="https://i.ibb.co/8cphzLK/download.png" alt="Math Course">
+                    <div class="course-card-content">
+                        <h3>Advanced Calculus</h3>
+                        <p>Instructor: Dr. Jane Smith</p>
+                        <p>Master the fundamentals of calculus and its applications.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="https://i.ibb.co/x6LL8KS/download-1.png" alt="Science Course">
+                    <div class="course-card-content">
+                        <h3>Introduction to Quantum Physics</h3>
+                        <p>Instructor: Prof. John Doe</p>
+                        <p>Explore the fascinating world of quantum mechanics.</p>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="https://i.ibb.co/D5M41wG/download-2.png" alt="Language Course">
+                    <div class="course-card-content">
+                        <h3>Spanish for Beginners</h3>
+                        <p>Instructor: Maria Rodriguez</p>
+                        <p>Learn the basics of Spanish language and culture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="learning-paths">
+        <div class="container">
+            <h2>Discover Your Learning Path</h2>
+            <p>Take our quick quiz to find the perfect courses for your learning style and interests.</p>
+            <a href="#" class="btn" id="start-quiz">Start Quiz</a>
+        </div>
+    </section>
+
+    <section class="success-stories">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"EduQuest has completely transformed my learning experience. The courses are engaging and the instructors are top-notch!"</p>
+                    <p class="student-name">- Sarah Johnson, Data Scientist</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Thanks to EduQuest, I was able to switch careers and land my dream job in web development. The learning paths were incredibly helpful!"</p>
+                    <p class="student-name">- Michael Chen, Web Developer</p>
+                </div>
+                <div class="testimonial">
+                    <p>"I never thought I could learn a new language so quickly. EduQuest's interactive courses made it fun and easy!"</p>
+                    <p class="student-name">- Emma Thompson, Language Enthusiast</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <button class="btn" id="contact-us">Contact Us</button>
+        </div>
+    </footer>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="customer-support">
+                <h3>Customer Support</h3>
+                <p>Phone: 1-800-EDU-QUEST</p>
+                <p>Email: support@eduquest.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
